@@ -22,7 +22,7 @@ if string.find(str, "/") then
 end
 
 if pass == "" then
-      x = gg.alert("Wrong key\n Get key form here \n\n https://mrgroot.herokuapp.com","copy link")
+      x = gg.alert("Wrong key\n Get key form here \n\n"..server,"copy link")
    if x == 1 then 
       gg.copyText(server)
    end
